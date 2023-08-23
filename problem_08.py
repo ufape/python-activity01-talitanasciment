@@ -32,7 +32,26 @@ Detectamos 4 valores positivos.
 
 
 def main():
-    pass # your code here
+    valor1 = int(input(f"Valor (1/6): "))
+    valor2 = int(input(f"Valor (2/6): "))
+    valor3 = int(input(f"Valor (3/6): "))
+    valor4 = int(input(f"Valor (4/6): "))
+    valor5 = int(input(f"Valor (5/6): "))
+    valor6 = int(input(f"Valor (6/6): "))
+    quant = 0
+    if valor1 > 0:
+      quant = quant +1
+    if valor2 > 0:
+      quant = quant +1
+    if valor3 > 0:
+      quant = quant +1
+    if valor4 > 0:
+      quant = quant +1
+    if valor5 > 0:
+      quant = quant +1
+    if valor6 > 0:
+      quant = quant +1
+    print(f"Detectamos {quant} valores positivos.")
 
 
 if __name__ == '__main__':
